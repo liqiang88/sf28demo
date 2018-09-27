@@ -2,7 +2,7 @@
 //参数设置
 $container->setParameter('database_host', '127.0.0.1');
 $container->setParameter('database_port', 3306);
-$container->setParameter('database_name', 'sf2demo');
+$container->setParameter('database_name', 'sf28demogit');
 $container->setParameter('database_user', 'root');
 $container->setParameter('database_password', 'root123123');
 $container->setParameter('mailer_transport', 'smtp');
