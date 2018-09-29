@@ -141,6 +141,7 @@ class DefaultController extends Controller
 
 
     /**
+     * 自定义事件
      * 事件派遣、事件监听和事件订阅
      * @return Response
      */
@@ -184,6 +185,7 @@ class DefaultController extends Controller
      */
     public function containerAction()
     {
+        //获取容器
         $logger = $this->container->get('logger');
         $logger->info('-----------logger test--------');
 //
