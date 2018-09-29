@@ -3,7 +3,8 @@
 use Symfony\Component\DependencyInjection\Definition;
 use Symfony\Component\DependencyInjection\Reference;
 use Symfony\Component\DependencyInjection\Parameter;
-
+//use AppBundle\EventSubscriber\ExceptionSubscriber;
+use AppBundle\EventListener\ExceptionListener;
 /*
 
 $container->setDefinition(
@@ -19,3 +20,9 @@ $container->setDefinition(
 );
 
 */
+
+//
+//$container
+//    ->register('app.exception_listener', ExceptionListener::class)
+//    ->addTag('kernel.event_listener', array('event' => 'kernel.exception'))
+//;
