@@ -1,8 +1,6 @@
 <?php
 $loader->import('config.php');
 
-$loader->import('security.php');
-
 if (file_exists(__DIR__.'/security_local.php')) {
     $loader->import('security_local.php');
 }
